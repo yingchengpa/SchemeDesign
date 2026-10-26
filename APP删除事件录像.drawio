@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="S0SxSMPneIPFH5rVlYPF">
+    <mxGraphModel dx="1554" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="400" width="100" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="400" width="100" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="设备" vertex="1">
+          <mxGeometry height="400" width="100" x="630" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-5" edge="1" parent="1" source="okUyDeWSJHW3-GIkDbDp-4" style="endArrow=classic;html=1;rounded=0;" value="LAPI/V1.0/Cloud/Register/Config">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="250" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;LAPI/V1.1/Cloud/Config&lt;/font&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="240" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;delete event list&lt;/font&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="278" as="sourcePoint" />
+            <mxPoint x="679.5" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="okUyDeWSJHW3-GIkDbDp-3" value="&lt;article class=&quot;4ever-article&quot;&gt;&lt;span data-type=&quot;text&quot;&gt;/openapi/event/alarm/batch/delete&lt;/span&gt;&lt;/article&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="320" as="sourcePoint" />
+            <mxPoint x="170" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通过事件对应的起始时间，删除相关录像" vertex="1">
+          <mxGeometry height="30" width="140" x="370" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="okUyDeWSJHW3-GIkDbDp-4" value="LAPI/&lt;div&gt;startTime-endTime ... list&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-12" edge="1" parent="1" source="okUyDeWSJHW3-GIkDbDp-4" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="490" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="记录非200 的请求" vertex="1">
+          <mxGeometry height="30" width="60" x="355" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="okUyDeWSJHW3-GIkDbDp-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="清除记录" vertex="1">
+          <mxGeometry height="30" width="60" x="345" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

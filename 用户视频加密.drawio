@@ -1,0 +1,391 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="非声网设备" id="97L36XnHNoj5k4C2yxcc">
+    <mxGraphModel dx="2127" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="205" width="810" x="60" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="250" width="810" x="60" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="334" width="810" x="60" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="设备" vertex="1">
+          <mxGeometry height="1340" width="100" x="70" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="1340" width="100" x="350" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="1340" width="100" x="590" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="解码库" vertex="1">
+          <mxGeometry height="1340" width="100" x="840" y="-61" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="老APP" vertex="1">
+          <mxGeometry height="300" width="100" x="1070" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="通道能力集&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;ChannelCapabilities.videoCap.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;isSupport...UserKey&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0733" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120" y="59" as="sourcePoint" />
+            <mxPoint x="399.50000000000045" y="59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="用户自定义密码user_key，密码规则：&lt;div&gt;见showdoc文档&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="178" x="649" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="进入密码设置页面" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="获取加扰状态&lt;div&gt;/LAPI/...//Media/Video/Streams/Scramble/Status&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="639.5" y="191.0000000000001" as="sourcePoint" />
+            <mxPoint x="120" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLzQu_L03RXjc9ycKIWJ-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="UserKeyEnabled&lt;div&gt;UserKeySalt&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="231" as="sourcePoint" />
+            <mxPoint x="639.5000000000005" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-1" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="290" as="sourcePoint" />
+            <mxPoint x="1230" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="设置密码" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="/LAPI/.../Media/Video/.../Scramble/Config&lt;div&gt;ScrambleEnabled=1&lt;/div&gt;&lt;div&gt;UserKeyEnabled=1&lt;/div&gt;&lt;div&gt;ScrambleAlg=&lt;/div&gt;&lt;div&gt;NewUserKeyInfo&lt;/div&gt;&lt;div&gt;RSAPublicKey&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.001" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="400" y="534" as="sourcePoint" />
+            <mxPoint x="120" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="/LAPI/V1.0/System/Security/RSA">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="639.5" y="404" as="sourcePoint" />
+            <mxPoint x="120" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="RSAPublic">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="423" as="sourcePoint" />
+            <mxPoint x="639.5" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="575" as="sourcePoint" />
+            <mxPoint x="400" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="保存User_key,保存历史5个密码" vertex="1">
+          <mxGeometry height="30" width="120" x="650" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="611" as="sourcePoint" />
+            <mxPoint x="640" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提示保存失败" vertex="1">
+          <mxGeometry height="30" width="90" x="640" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="651" as="sourcePoint" />
+            <mxPoint x="1220" y="651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无密码&lt;div&gt;UserKeyEnable=0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-20" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="计算密钥信息，见showdoc&lt;div&gt;其中：UserKeySalit 使用设备返回的，如果没有=[用户id]&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="178" x="655" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有密码&lt;div&gt;UserKeyEnable=1&lt;/div&gt;&lt;div&gt;重置密码&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-20" y="707" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="/LAPI/V1.0/System/Security/RSA">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="732" as="sourcePoint" />
+            <mxPoint x="120.5" y="732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="RSAPublic">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120.5" y="756.5" as="sourcePoint" />
+            <mxPoint x="640" y="756.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="/LAPI/.../Media/Video/.../0/Scramble/UserKey/ForceSet&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NewUserKeyInfo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;RSAPublicKey&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0031" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="400" y="820" as="sourcePoint" />
+            <mxPoint x="120.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="hLzQu_L03RXjc9ycKIWJ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120.5" y="845" as="sourcePoint" />
+            <mxPoint x="640" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="886" as="sourcePoint" />
+            <mxPoint x="640" y="886" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="保存User_key,保存历史5个密码" vertex="1">
+          <mxGeometry height="30" width="120" x="655" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提示保存失败" vertex="1">
+          <mxGeometry height="30" width="90" x="655" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="927" as="sourcePoint" />
+            <mxPoint x="1220" y="927" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有密码&lt;div&gt;UserKeyEnable=1&lt;/div&gt;&lt;div&gt;关闭密码&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-23" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="/LAPI/.../Scramble/ForceDisable">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="1040" as="sourcePoint" />
+            <mxPoint x="120.5" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-28" edge="1" parent="1" source="hLzQu_L03RXjc9ycKIWJ-4" style="endArrow=classic;html=1;rounded=0;" value="发送验证码 openapi/....">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-29" edge="1" parent="1" source="hLzQu_L03RXjc9ycKIWJ-4" style="endArrow=classic;html=1;rounded=0;" value="使用验证码使能幻影&lt;div&gt;openapi/..../Scramble/Enable&lt;/div&gt;&lt;div&gt;验证码&lt;/div&gt;&lt;div&gt;参数&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="530" as="sourcePoint" />
+            <mxPoint x="400" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="发送验证码 openapi/....">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="683" as="sourcePoint" />
+            <mxPoint x="400" y="683" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="使用验证码reset&lt;div&gt;openapi/..../Scramble/Reset&lt;/div&gt;&lt;div&gt;验证码&lt;/div&gt;&lt;div&gt;参数&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="790" as="sourcePoint" />
+            <mxPoint x="400" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="计算密钥信息，见showdoc&lt;div&gt;其中：UserKeySalit=&quot;appUserKey&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="655" y="772.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="发送验证码 openapi/....">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="950" as="sourcePoint" />
+            <mxPoint x="400" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="使用验证码ForceDisable&lt;div&gt;openapi/..../Scramble/Disable&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="640" y="1000" as="sourcePoint" />
+            <mxPoint x="400" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1065" as="sourcePoint" />
+            <mxPoint x="399.5" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDQYF5nHeq4DT_eLI6ro-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="1089" as="sourcePoint" />
+            <mxPoint x="639.5000000000005" y="1089" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnWvRp0Hd7fBQqllw8q_-1" edge="1" parent="1" source="hLzQu_L03RXjc9ycKIWJ-4" style="endArrow=classic;html=1;rounded=0;entryX=0.467;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" target="hLzQu_L03RXjc9ycKIWJ-5" value="Mediasdk_SetKeyU">
+          <mxGeometry height="50" relative="1" width="50" x="0.1667" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="640" y="1150" as="sourcePoint" />
+            <mxPoint x="880" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnWvRp0Hd7fBQqllw8q_-2" edge="1" parent="1" source="hLzQu_L03RXjc9ycKIWJ-5" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" value="回调&lt;div&gt;密码正确、错误&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="878" y="1190" as="sourcePoint" />
+            <mxPoint x="720" y="1229.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="abPIuMHXvu9KVPEHy0VB-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="有幻影功能的前提条件：&lt;br&gt;支持幻影 &amp;amp;&amp;amp; 没有声网能力" vertex="1">
+          <mxGeometry height="30" width="200" x="610" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQb9m-8UgRmu62-S9LOD-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="report 相关配置&lt;div&gt;/LAPI/V1.0/Cloud/..../Report&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="626" as="sourcePoint" />
+            <mxPoint x="399.50000000000045" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZQb9m-8UgRmu62-S9LOD-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="hLzQu_L03RXjc9ycKIWJ-3" value="report 相关配置&lt;div&gt;/LAPI/V1.0/Cloud/..../Report&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="900" as="sourcePoint" />
+            <mxPoint x="170" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZQb9m-8UgRmu62-S9LOD-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="hLzQu_L03RXjc9ycKIWJ-3" value="report 相关配置&lt;div&gt;/LAPI/V1.0/Cloud/..../Report&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1110" as="sourcePoint" />
+            <mxPoint x="170" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Er0UWON3GMqv_pgCZ7_c-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="hLzQu_L03RXjc9ycKIWJ-3" value="PUT /LAPI/V1.0/Cloud/.../StorageKey">
+          <mxGeometry height="50" relative="1" width="50" x="0.0018" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120" y="1200" as="sourcePoint" />
+            <mxPoint x="170" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Er0UWON3GMqv_pgCZ7_c-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="GET /LAPI/V1.0/Cloud/.../StorageKey?CertSN">
+          <mxGeometry height="50" relative="1" width="50" x="0.0714" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120" y="1230" as="sourcePoint" />
+            <mxPoint x="400" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Er0UWON3GMqv_pgCZ7_c-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="存储设备key-t,换卡时会切换" vertex="1">
+          <mxGeometry height="30" width="90" x="410" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="MdASAs6PhoKEbcq7pzzk-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="设备能力集&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;DeviceCapabilities.CloudConfig&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0733" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120" y="19" as="sourcePoint" />
+            <mxPoint x="400" y="19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdASAs6PhoKEbcq7pzzk-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="设备上线" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="MdASAs6PhoKEbcq7pzzk-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="进入配置界面" vertex="1">
+          <mxGeometry height="30" width="60" x="-20" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="MdASAs6PhoKEbcq7pzzk-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="report 相关配置&lt;div&gt;/LAPI/V1.0/Cloud/..../Report&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="111" as="sourcePoint" />
+            <mxPoint x="399.50000000000045" y="111.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YFeE0OPHFYiAf0DqV6rc" name="云存">
+    <mxGraphModel dx="891" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yW3FKpguvfn6m7zdIQ_n-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="设备" vertex="1">
+          <mxGeometry height="450" width="100" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yW3FKpguvfn6m7zdIQ_n-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="450" width="100" x="350" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yW3FKpguvfn6m7zdIQ_n-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="450" width="100" x="491" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yW3FKpguvfn6m7zdIQ_n-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="yW3FKpguvfn6m7zdIQ_n-3" value="能力集&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;ChannelCapabilities.videoCap.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;isSupport...UserKey&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="170" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlXpT3C5r6NVciPw9xU_-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="POST Synchronization/Notify">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="229.5" as="sourcePoint" />
+            <mxPoint x="120" y="229.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlXpT3C5r6NVciPw9xU_-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Cloud/V1.0/Cloud/OSS/Config">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlXpT3C5r6NVciPw9xU_-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;OSSScrambleStorageKey=&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;随机Key-T，保证尽量唯一&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="320" as="sourcePoint" />
+            <mxPoint x="120" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jODVJa4oNx2rsAK5jSWt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="云存状态变化" vertex="1">
+          <mxGeometry height="30" width="60" x="551" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jODVJa4oNx2rsAK5jSWt-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="366" as="sourcePoint" />
+            <mxPoint x="400" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jODVJa4oNx2rsAK5jSWt-3" edge="1" parent="1" source="yW3FKpguvfn6m7zdIQ_n-3" style="endArrow=classic;html=1;rounded=0;" value="POST Synchronization/Notify">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="450" as="sourcePoint" />
+            <mxPoint x="120" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jODVJa4oNx2rsAK5jSWt-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Cloud/V1.0/Cloud/OSS/Config">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="440" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jODVJa4oNx2rsAK5jSWt-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;OSSScrambleStorageKey=&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;随机Key-T，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(236, 236, 236); font-size: 12px; white-space: normal; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;保证尽量唯一&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0018" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="399.5" y="490" as="sourcePoint" />
+            <mxPoint x="120" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jODVJa4oNx2rsAK5jSWt-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="上线过程" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GI0ARGIbK2IQnThwomEq-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="key-T,user-key 明文">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0027" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="541" y="522" as="sourcePoint" />
+            <mxPoint x="671" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAIi5OYSkDHtarEW8ZiE-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="sdk" vertex="1">
+          <mxGeometry height="450" width="100" x="621" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JNlZUuNCFfUB03v4CuWM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="设备支持幻影，则默认生成Cloud_key_T" vertex="1">
+          <mxGeometry height="30" width="100" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YPynYBF7TfrWRZZE88PH-2" edge="1" parent="1" source="yW3FKpguvfn6m7zdIQ_n-4" style="endArrow=classic;html=1;rounded=0;" value="查询设备列表">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="550" as="sourcePoint" />
+            <mxPoint x="400" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPynYBF7TfrWRZZE88PH-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;OSSStorageKey&lt;/span&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="517" as="sourcePoint" />
+            <mxPoint x="540.5" y="517" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

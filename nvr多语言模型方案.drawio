@@ -1,0 +1,62 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="GGmH_jTOUjYwiUT0MNys">
+    <mxGraphModel dx="1300" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="NVR" vertex="1">
+          <mxGeometry height="450" width="100" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="420" width="100" x="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="450" width="100" x="710" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="etuLgqwR5UdlRp4l8Eup-2" value="能力集&lt;div&gt;AnyFeatureModelVer&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="200" as="sourcePoint" />
+            <mxPoint x="200" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="etuLgqwR5UdlRp4l8Eup-2" value="/LAPI/V1.0/Cloud/Event/Config&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;DeviceInfo.&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;AnyFeatureModel&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="270" as="sourcePoint" />
+            <mxPoint x="200" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-6" edge="1" parent="1" source="etuLgqwR5UdlRp4l8Eup-3" style="endArrow=classic;html=1;rounded=0;" value="查询设备列表">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="etuLgqwR5UdlRp4l8Eup-3" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;AnyFeatureModel&lt;/span&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="etuLgqwR5UdlRp4l8Eup-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="单设备搜索&lt;div&gt;当AnyFeature.lan=cn时，不需要翻译&lt;/div&gt;&lt;div&gt;.lan!=cn时，需要翻译为英文&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="750" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="hGkHsbYAQSRZwYL4rDXn-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跨设备搜索&lt;div&gt;当选择的第一台有&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AnyFeature&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;设备的AnyFeature.lan=cn时，不需要翻译&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="760" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="hGkHsbYAQSRZwYL4rDXn-2" edge="1" parent="1" source="etuLgqwR5UdlRp4l8Eup-3" style="endArrow=classic;html=1;rounded=0;" value="万物搜">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="450" as="sourcePoint" />
+            <mxPoint x="150" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGkHsbYAQSRZwYL4rDXn-3" edge="1" parent="1" source="etuLgqwR5UdlRp4l8Eup-3" style="endArrow=classic;html=1;rounded=0;" value="万物搜&lt;div&gt;&lt;span style=&quot;color: rgb(52, 58, 64); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif; font-size: 14px; text-align: left; white-space: normal;&quot;&gt;modelVersion修改为anyFeatureModle.ver&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0016" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="400" y="570" as="sourcePoint" />
+            <mxPoint x="450" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

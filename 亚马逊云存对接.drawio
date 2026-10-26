@@ -1,0 +1,71 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="e-NNgYWJLdPpeJkfJ7e0">
+    <mxGraphModel dx="1300" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="unv" vertex="1">
+          <mxGeometry height="80" width="220" x="220" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ipc" vertex="1">
+          <mxGeometry height="60" width="140" x="270" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-3" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="aws OSS" vertex="1">
+          <mxGeometry height="80" width="190" x="570" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="aws ak/sk" vertex="1">
+          <mxGeometry height="20" width="60" x="360" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&lt;p&gt;Send authentication information periodically&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;endpoint、bucket、securityToken&lt;/span&gt;&lt;/p&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="320" y="350" as="sourcePoint" />
+            <mxPoint x="320" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="hAnhXUxlDk6fsbk-kOng-3" value="put picture/video">
+          <mxGeometry height="50" relative="1" width="50" x="-0.373" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="674.5" y="560" />
+            </Array>
+            <mxPoint x="410" y="560" as="sourcePoint" />
+            <mxPoint x="460" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-8" edge="1" parent="1" source="hAnhXUxlDk6fsbk-kOng-3" style="endArrow=classic;html=1;rounded=0;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" value="mq&lt;div&gt;url、filename&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="APP" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="query picture">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="120" as="sourcePoint" />
+            <mxPoint x="300" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="url?sign=">
+          <mxGeometry height="50" relative="1" width="50" x="-0.5385" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="350" y="250" as="sourcePoint" />
+            <mxPoint x="350" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hAnhXUxlDk6fsbk-kOng-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="hAnhXUxlDk6fsbk-kOng-3" value="get picture&lt;div&gt;url?sign=&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4286" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="665" y="80" />
+            </Array>
+            <mxPoint x="400" y="80" as="sourcePoint" />
+            <mxPoint x="450" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

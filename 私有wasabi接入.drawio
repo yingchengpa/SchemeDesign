@@ -1,0 +1,128 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36">
+  <diagram name="第 1 页" id="c7k43xwBSr8G86sRFK8P">
+    <mxGraphModel dx="1300" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="810" x="120" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="设备" vertex="1">
+          <mxGeometry height="580" width="100" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="云" vertex="1">
+          <mxGeometry height="630" width="100" x="390" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="610" width="100" x="710" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="lN5p9LoqWII8yWFXX-oI-3" value="能力集：&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;SupportOSSRecordNotify&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0018" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="210" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="按能力展示私有s3存储配置" vertex="1">
+          <mxGeometry height="30" width="110" x="770" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-7" edge="1" parent="1" source="lN5p9LoqWII8yWFXX-oI-4" style="endArrow=classic;html=1;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;设置s3参数：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;厂商信息、ak/sk、endpoint、录像留存期、&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;bucket、region、视频/图片&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="POST Synchronization/Notify">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="439.5" y="273" as="sourcePoint" />
+            <mxPoint x="160" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="lN5p9LoqWII8yWFXX-oI-3" value="Cloud/V1.0/Cloud/OSS/Config">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="310" as="sourcePoint" />
+            <mxPoint x="210" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="配置下发" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="lN5p9LoqWII8yWFXX-oI-3" value="GET OSS/SecurityToken">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="400" as="sourcePoint" />
+            <mxPoint x="210" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-13" edge="1" parent="1" source="lN5p9LoqWII8yWFXX-oI-3" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="SecurityTokenInfo">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="490" as="sourcePoint" />
+            <mxPoint x="160" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-14" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="40" width="20" x="100" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="每小时定时获取&lt;div&gt;公共云存+私有云存&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="87" x="10" y="407" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="s3 云存" vertex="1">
+          <mxGeometry height="690" width="80" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="lN5p9LoqWII8yWFXX-oI-16" value="上报 视频/图片">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="510" as="sourcePoint" />
+            <mxPoint x="210" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="lN5p9LoqWII8yWFXX-oI-3" value="&lt;font color=&quot;#ff0000&quot;&gt;alarm1.1/event/notify&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;OSSRecord&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;[url,url]&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="550" as="sourcePoint" />
+            <mxPoint x="210" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="私有云存单独上报" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="测试s3功能是否正常，尝试上传一张图片" vertex="1">
+          <mxGeometry height="30" width="130" x="770" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-22" edge="1" parent="1" source="lN5p9LoqWII8yWFXX-oI-4" style="endArrow=classic;html=1;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;测试上传是否正常&lt;/font&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-23" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ezcloud客户端" vertex="1">
+          <mxGeometry height="691" width="100" x="910" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="959.5" y="667" as="sourcePoint" />
+            <mxPoint x="440" y="667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="查询回放" vertex="1">
+          <mxGeometry height="30" width="70" x="661" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="lN5p9LoqWII8yWFXX-oI-23" value="返回 m3u8 文件">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="700" as="sourcePoint" />
+            <mxPoint x="490" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lN5p9LoqWII8yWFXX-oI-27" edge="1" parent="1" source="lN5p9LoqWII8yWFXX-oI-23" style="endArrow=classic;html=1;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;hls 播放&lt;/font&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="790" as="sourcePoint" />
+            <mxPoint x="600" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ5DYPICP1z_vv6CGgBu-2" edge="1" parent="1" source="lN5p9LoqWII8yWFXX-oI-3" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;RecordNotify:1&lt;/span&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="380" as="sourcePoint" />
+            <mxPoint x="160" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

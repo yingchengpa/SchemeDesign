@@ -1,0 +1,41 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="BbzAWaViQma_SfIcxnoZ">
+    <mxGraphModel dx="1554" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p6eRZ12_DHMotmMiPQZW-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="440" width="100" x="110" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p6eRZ12_DHMotmMiPQZW-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="440" width="100" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p6eRZ12_DHMotmMiPQZW-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Device" vertex="1">
+          <mxGeometry height="440" width="100" x="590" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p6eRZ12_DHMotmMiPQZW-5" edge="1" parent="1" source="p6eRZ12_DHMotmMiPQZW-4" style="endArrow=classic;html=1;rounded=0;" value="能力集&lt;div&gt;PowerModeCapabilities:&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="250" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6eRZ12_DHMotmMiPQZW-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;PowerModeCapabilities.SupportPowerModeNum&amp;gt;1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="120" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="p6eRZ12_DHMotmMiPQZW-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="p6eRZ12_DHMotmMiPQZW-4" value="/LAPI/V1.0/System/PowerMode&lt;div&gt;ModeSwitchType:0/1&lt;/div&gt;&lt;div&gt;Mode:1/2&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="400" as="sourcePoint" />
+            <mxPoint x="210" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6eRZ12_DHMotmMiPQZW-9" edge="1" parent="1" source="p6eRZ12_DHMotmMiPQZW-4" style="endArrow=classic;html=1;rounded=0;" value="/LAPI/Event/Notification/DeviceStatus&lt;div&gt;WorkDetails.PowerMode:1/2&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0021" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="350" y="510" as="sourcePoint" />
+            <mxPoint x="400" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,241 @@
+<mxfile host="Electron" pages="2">
+  <diagram id="nD_a--weP6xZK57EQaw7" name="通道多门设备">
+    <mxGraphModel dx="2387" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="470" x="-70" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="室内机/室外机" vertex="1">
+          <mxGeometry height="60" width="310" x="270" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="门通道1" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="读卡器通道1" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="580" x="481" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="视频通道2" vertex="1">
+          <mxGeometry height="60" width="120" x="501" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="门通道3" vertex="1">
+          <mxGeometry height="60" width="120" x="761" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="x5OjiM98RPXR-lnSbgbf-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="读卡器通道2" vertex="1">
+          <mxGeometry height="60" width="120" x="911" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="W2kk5nPZUG-nidnjtVY6-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="视频通道1" vertex="1">
+          <mxGeometry height="60" width="120" x="-50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="W2kk5nPZUG-nidnjtVY6-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="视频通道3" vertex="1">
+          <mxGeometry height="60" width="120" x="631" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="W2kk5nPZUG-nidnjtVY6-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="470" x="-70" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="W2kk5nPZUG-nidnjtVY6-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="门通道5" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="W2kk5nPZUG-nidnjtVY6-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="门通6" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="W2kk5nPZUG-nidnjtVY6-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="视频通道4" vertex="1">
+          <mxGeometry height="60" width="120" x="-50" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="流程图" id="w-my_OX_luzNetJljwM1">
+    <mxGraphModel dx="1076" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="室内机&lt;div&gt;（多门通道）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="910" width="100" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="720" width="100" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="910" width="100" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="dIiPp2kDfNGC4aM2n9Nb-2" value="/Upserver/Register&lt;div&gt;x-dev-regver=2&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0017" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="120" as="sourcePoint" />
+            <mxPoint x="180" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="dIiPp2kDfNGC4aM2n9Nb-2" value="设备能力集上报&lt;div&gt;/LAPI/.../ACS/Meta&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;DoorChannel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;CardReaderChannel&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0017" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="180" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="通道信息、能力集上报&lt;div&gt;/LAPI/.../Cloud/ACS/All/ChannelInfo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;Door、CardReader&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0684" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="214" as="sourcePoint" />
+            <mxPoint x="429.5" y="214.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="获取云端配置&lt;br&gt;&lt;div&gt;/LAPI/.../Cloud/Register/Configs&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0017" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="320" as="sourcePoint" />
+            <mxPoint x="750" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="dIiPp2kDfNGC4aM2n9Nb-2" value="设备变更配置上报&lt;div&gt;/LAPI/../Cloud/Event/Configs&lt;/div&gt;&lt;div&gt;&lt;article class=&quot;4ever-article&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;新增加FastAddEnabled&lt;/span&gt;&lt;/article&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0017" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="360" as="sourcePoint" />
+            <mxPoint x="180" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="通道变更配置上报&lt;div&gt;/LAPI/../Cloud/Device/ChannelInfo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;Door、CardReader&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="430" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="dIiPp2kDfNGC4aM2n9Nb-3" value="获取设备通道信息">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="190" as="sourcePoint" />
+            <mxPoint x="480" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIiPp2kDfNGC4aM2n9Nb-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="人员信息下发">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="649.5" y="659" as="sourcePoint" />
+            <mxPoint x="430" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="人员信息下发&lt;div&gt;LAPI/.../PeopleLibraries/&amp;lt;ID&amp;gt;/People&lt;/div&gt;&lt;div&gt;PersonTimeTemplateInfo.&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;DoorID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="429.5" y="679" as="sourcePoint" />
+            <mxPoint x="130" y="679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="639" as="sourcePoint" />
+            <mxPoint x="750" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-3" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="480" as="sourcePoint" />
+            <mxPoint x="740" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-4" edge="1" parent="1" source="dIiPp2kDfNGC4aM2n9Nb-3" style="endArrow=classic;html=1;rounded=0;" value="获取采集设备">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="560" as="sourcePoint" />
+            <mxPoint x="430" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="卡号采集" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="人员信息下发" vertex="1">
+          <mxGeometry height="30" width="90" x="645" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;增加卡通道含采集能力的卡通道&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;PACSCapabilities.ACSCapture.CaptureMode=2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="174" x="220" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="dIiPp2kDfNGC4aM2n9Nb-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="530" as="sourcePoint" />
+            <mxPoint x="480" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="下发采集卡号&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;/LAPI/.../PACS/CardReader/&amp;lt;ID&amp;gt;/CaptureInfo&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="649.5" y="557.9999999999999" as="sourcePoint" />
+            <mxPoint x="129.81034482758628" y="557.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="返回卡号">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="580" as="sourcePoint" />
+            <mxPoint x="430" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="mqtt 推送卡号">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="600" as="sourcePoint" />
+            <mxPoint x="650" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-12" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="740" as="sourcePoint" />
+            <mxPoint x="740" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="视频通道呼叫" vertex="1">
+          <mxGeometry height="30" width="90" x="645" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="dIiPp2kDfNGC4aM2n9Nb-3" value="呼叫通知&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;DoorID&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="790" as="sourcePoint" />
+            <mxPoint x="180" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="查询视频通道和门通道的关联关系&lt;div&gt;/LAPI/V1.0/System/Resource&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="649.5" y="892" as="sourcePoint" />
+            <mxPoint x="130" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="912" as="sourcePoint" />
+            <mxPoint x="649.5" y="912" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="找到对应的门通道" vertex="1">
+          <mxGeometry height="30" width="90" x="650" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="开门">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="843" as="sourcePoint" />
+            <mxPoint x="130.5" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-19" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="860" as="sourcePoint" />
+            <mxPoint x="740" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="实况界面开门" vertex="1">
+          <mxGeometry height="30" width="90" x="650" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4XfwddVf2qmSJiNDHc-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="查询视频通道和门通道的关联关系&lt;div&gt;/LAPI/V1.0/System/Resource&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="818" as="sourcePoint" />
+            <mxPoint x="130.5" y="818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_HQnN_eoRW1dNBwPXsB-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="设备上云" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

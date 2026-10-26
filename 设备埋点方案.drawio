@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="vil2BK1beO0TdH-To-S1">
+    <mxGraphModel dx="1554" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XenTHHMt0-77dVJzTzaP-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Device" vertex="1">
+          <mxGeometry height="300" width="100" x="71" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="300" width="100" x="311" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Cls" vertex="1">
+          <mxGeometry height="300" width="100" x="511" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="751" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="XenTHHMt0-77dVJzTzaP-3" value="/LAPI/V1.0/Cloud/Register/Configs">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="121" y="240" as="sourcePoint" />
+            <mxPoint x="171" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-7" edge="1" parent="1" source="XenTHHMt0-77dVJzTzaP-3" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Domain.LogDomain&lt;/font&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="320" as="sourcePoint" />
+            <mxPoint x="120" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="https://&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;logdomin&lt;/font&gt;/LAPI/V1.0/Cloud/Logs/Cls?Vendor=&lt;div&gt;HEAD.contentType:&#39;application/json&#39;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;device&quot;:{&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="359" as="sourcePoint" />
+            <mxPoint x="560.5" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="定时发送埋点信息" vertex="1">
+          <mxGeometry height="30" width="60" x="45" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="XenTHHMt0-77dVJzTzaP-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="280" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

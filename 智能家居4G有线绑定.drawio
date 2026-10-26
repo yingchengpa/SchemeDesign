@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="A-Zm4qk4HjXsGOZi30Ji">
+    <mxGraphModel dx="1554" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q4C_96BPXHf9ndOqZg10-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="设备" vertex="1">
+          <mxGeometry height="680" width="100" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="中心云" vertex="1">
+          <mxGeometry height="680" width="100" x="390" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="区域云" vertex="1">
+          <mxGeometry height="680" width="100" x="630" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="APP" vertex="1">
+          <mxGeometry height="680" width="100" x="910" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="q4C_96BPXHf9ndOqZg10-6" value="global-cloud.youkey.com/LAPI/Upserver/Reg">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="210" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="插卡/插网线 &amp;amp;&amp;amp; 未绑定用户时" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="扫码绑定" vertex="1">
+          <mxGeometry height="30" width="60" x="980" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="openapi/bind&lt;div&gt;注册码&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="959.5" y="319" as="sourcePoint" />
+            <mxPoint x="680" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="bindcheck">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="959.5" y="279" as="sourcePoint" />
+            <mxPoint x="680" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4C_96BPXHf9ndOqZg10-14" edge="1" parent="1" source="q4C_96BPXHf9ndOqZg10-6" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="290" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

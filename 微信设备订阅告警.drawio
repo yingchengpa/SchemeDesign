@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="CWZbIAEGXh42UhaflJ15">
+    <mxGraphModel dx="1554" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2V82loBEUpgFHzvikNXV-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="小程序" vertex="1">
+          <mxGeometry height="750" width="100" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="EZCloud" vertex="1">
+          <mxGeometry height="750" width="100" x="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="微信云" vertex="1">
+          <mxGeometry height="760" width="100" x="727" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="申请订阅告警模板" vertex="1">
+          <mxGeometry height="30" width="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="设备告警">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="558" as="sourcePoint" />
+            <mxPoint x="400" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="判断是否存在wx message订阅" vertex="1">
+          <mxGeometry height="30" width="134" x="283" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="2V82loBEUpgFHzvikNXV-4" value="订阅授权&amp;nbsp;&lt;span style=&quot;font-family: Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(249, 249, 250); color: rgb(34, 34, 34); font-size: 14px; text-align: start;&quot;&gt;wx&lt;/span&gt;&lt;span class=&quot;token punctuation&quot; style=&quot;font-family: Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(249, 249, 250); color: rgb(34, 34, 34); font-size: 14px; text-align: start; margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot; style=&quot;font-family: Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(249, 249, 250); font-size: 14px; text-align: start; margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; color: rgb(35, 160, 255);&quot;&gt;requestSubscribeDeviceMessage&lt;/span&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="459" as="sourcePoint" />
+            <mxPoint x="639.5" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="获取票据 openapi/wx/message/getsnticket">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="210" as="sourcePoint" />
+            <mxPoint x="399.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="订阅授权" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="判断是否已订阅" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="已订阅">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="280" as="sourcePoint" />
+            <mxPoint x="120" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="2V82loBEUpgFHzvikNXV-4" value="获取snticket">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="345" as="sourcePoint" />
+            <mxPoint x="639.5" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-14" edge="1" parent="1" source="2V82loBEUpgFHzvikNXV-4" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="639.5" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-15" edge="1" parent="1" source="2V82loBEUpgFHzvikNXV-3" style="endArrow=classic;html=1;rounded=0;" value="返回snticket">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="440" as="sourcePoint" />
+            <mxPoint x="120" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="2V82loBEUpgFHzvikNXV-4" value="POST https://api.weixin.qq.com/cgi-bin/message/&lt;span style=&quot;font-family: Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(249, 249, 250); color: rgb(34, 34, 34); font-size: 14px; text-align: start;&quot;&gt;device/&lt;/span&gt;&lt;div&gt;subscribe/send?access_token=ACCESS_TOKEN&lt;/div&gt;&lt;div&gt;{&lt;span style=&quot;text-wrap-mode: wrap; color: rgb(53, 53, 53); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;SF UI Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: left; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;to_openid_list、&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(77, 166, 33); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; word-spacing: normal; text-align: start;&quot;&gt;template_id、&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(77, 166, 33); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; word-spacing: normal; text-align: start;&quot;&gt;page、&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(77, 166, 33); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; word-spacing: normal; text-align: start;&quot;&gt;data、sn、&lt;/span&gt;&lt;span style=&quot;color: rgb(53, 53, 53); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;SF UI Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: left; text-wrap-mode: wrap; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;modelId\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 77, 0); font-family: Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(249, 249, 250); font-size: 14px; text-align: start;&quot;&gt;miniprogram_state&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="订阅授权取消" vertex="1">
+          <mxGeometry height="30" width="60" x="25" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="2V82loBEUpgFHzvikNXV-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="https://developers.weixin.qq.com/miniprogram/dev/OpenApiDoc/hardware-device/sendHardwareDeviceMessage.html" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

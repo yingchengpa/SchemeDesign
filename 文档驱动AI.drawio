@@ -1,0 +1,156 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="b6XaIXeVizPn62hN8LI9">
+    <mxGraphModel dx="1554" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;ignoreEdge=0;orthogonal=1;enumerate=0;comic=0;noJump=0;anchorPointDirection=0;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-1" target="AsPOn2KJmmfTlqsPYACR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-1" value="产品经理/开发/SE" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-6" target="AsPOn2KJmmfTlqsPYACR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-6" value="Requirement_spec.md" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="429" y="290" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-12" target="AsPOn2KJmmfTlqsPYACR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;AI" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="666.5" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-14" target="AsPOn2KJmmfTlqsPYACR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-14" target="AsPOn2KJmmfTlqsPYACR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-14" target="AsPOn2KJmmfTlqsPYACR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-14" value="API.md&lt;div&gt;DB.md&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="666.5" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="989" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-16" value="后端工程师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="899" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-20" target="AsPOn2KJmmfTlqsPYACR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-20" value="AI+skill" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="979" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-21" value="&lt;div&gt;后端代码&lt;/div&gt;java&lt;div&gt;python&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1179" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-23" target="AsPOn2KJmmfTlqsPYACR-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-23" value="前端工程师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="711.5" y="585" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-25" target="AsPOn2KJmmfTlqsPYACR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-25" target="AsPOn2KJmmfTlqsPYACR-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-25" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AI&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="809.5" y="575" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1119" y="772" as="targetPoint" />
+            <mxPoint x="1119.3000000000002" y="644" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-27" value="&lt;span style=&quot;color: rgb(62, 62, 62); letter-spacing: 0.578px; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;TypeScript 类型定义、Mock 数据和 API 调用代码&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1009.5" y="587" width="219.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="471" as="sourcePoint" />
+            <mxPoint x="465" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-29" value="测试工程师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-31" target="AsPOn2KJmmfTlqsPYACR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-31" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AI&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="345" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-33" value="测试用例" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="174" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-35" target="AsPOn2KJmmfTlqsPYACR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-35" value="交互设计师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="51" y="750" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-36" target="AsPOn2KJmmfTlqsPYACR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-36" value="设计稿&lt;div&gt;stitch&lt;/div&gt;&lt;div&gt;figma&lt;/div&gt;&lt;div&gt;master go&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="142" y="745" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-38" target="AsPOn2KJmmfTlqsPYACR-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-38" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AI&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;metaEdit=0;backgroundOutline=0;movable=1;orthogonal=0;enumerate=0;comic=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="544" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-40" value="design.md" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="484" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;flowAnimation=1;" edge="1" parent="1" source="AsPOn2KJmmfTlqsPYACR-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1259" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-44" value="js ui代码" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="809.5" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-48" value="前端代码" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1259" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-49" value="AI+skill" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1059" y="735" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="743" y="638" as="sourcePoint" />
+            <mxPoint x="811" y="638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsPOn2KJmmfTlqsPYACR-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="495" as="sourcePoint" />
+            <mxPoint x="465" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

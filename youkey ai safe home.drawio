@@ -1,0 +1,222 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="ai safe home 框架" id="_oKsa8hS8TRQ9DZb2qIm">
+    <mxGraphModel dx="1300" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-19" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399" y="770" as="sourcePoint" />
+            <mxPoint x="399" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oxfJjlila_VAMRA7qvE-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" value="Hopetrek Cloud" vertex="1">
+          <mxGeometry height="80" width="200" x="80" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9oxfJjlila_VAMRA7qvE-2" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" value="Youkey Cloud" vertex="1">
+          <mxGeometry height="80" width="200" x="460" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9oxfJjlila_VAMRA7qvE-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="储能设备" vertex="1">
+          <mxGeometry height="60" width="90" x="139" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="homebase" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-2" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kvddwUIxEfNKawJv8tEJ-1" value="mqtt">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="690" />
+            </Array>
+            <mxPoint x="230" y="690" as="sourcePoint" />
+            <mxPoint x="570" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-3" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="ws&lt;div&gt;{&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;topic:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;playload:&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="570" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="youkey APP" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Hope APP" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="相关H5模块复制">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="252" as="sourcePoint" />
+            <mxPoint x="490" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;储能子设备&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="35" x="490" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;展示流动图&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="510" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;entryX=0.55;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;透明通道&lt;div&gt;指令下发&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="566" y="290" as="sourcePoint" />
+            <mxPoint x="566" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;entryX=0.917;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" target="kvddwUIxEfNKawJv8tEJ-4" value="mqtt&amp;nbsp;&lt;div&gt;告警&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="360" as="sourcePoint" />
+            <mxPoint x="670" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" target="kvddwUIxEfNKawJv8tEJ-4" value="厂商推送">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="390" />
+              <mxPoint x="730" y="360" />
+              <mxPoint x="730" y="260" />
+            </Array>
+            <mxPoint x="650" y="390" as="sourcePoint" />
+            <mxPoint x="730" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvddwUIxEfNKawJv8tEJ-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;" target="9oxfJjlila_VAMRA7qvE-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="300" as="sourcePoint" />
+            <mxPoint x="230" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5APGOpXjvaHjsrsoPs3-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="双注册" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="I5APGOpXjvaHjsrsoPs3-2" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="mqtt">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="650" as="sourcePoint" />
+            <mxPoint x="180" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VW6dGa31tbXuqVILJ8jZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="查看历史数据：&lt;div&gt;请使用hopetrek app&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="510" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LzwCC9LGMKrB2UgB-aU6" name="储能云的设备接入">
+    <mxGraphModel dx="1814" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="设备" vertex="1">
+          <mxGeometry height="1020" width="100" x="110" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="储能云" vertex="1">
+          <mxGeometry height="320" width="100" x="390" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="https://xxx/daapi/v1.0/token/get&lt;div&gt;无鉴权&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="439.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-5" edge="1" parent="1" source="2V2JjTvbN5bMsyW3CM5I-3" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="401,nonce、timestamp">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="290" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="2V2JjTvbN5bMsyW3CM5I-3" value="https://xxx/daapi/v1.0/token/get&lt;div&gt;sign、nonce、vendor&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="210" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-7" edge="1" parent="1" source="2V2JjTvbN5bMsyW3CM5I-3" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="token">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="370" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="2V2JjTvbN5bMsyW3CM5I-3" value="https://xxx/daapi/v1.0/endpoint/get">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+            <mxPoint x="210" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-9" edge="1" parent="1" source="2V2JjTvbN5bMsyW3CM5I-3" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="mqtt信息&lt;div&gt;endpoint:&quot;45.22,22.22&quot;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="450" as="sourcePoint" />
+            <mxPoint x="160" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="储能云&lt;div&gt;mqtt服务&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1020" width="100" x="500" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-12" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="创建mqtt链接&lt;div&gt;endpoint:xxxx:8883&lt;/div&gt;&lt;div&gt;clientid:ulink_sn&lt;/div&gt;&lt;div&gt;username:&lt;/div&gt;&lt;div&gt;password:&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="459" as="sourcePoint" />
+            <mxPoint x="549.5" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-18" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="云下发动作逆变器执行&lt;div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/action/execute&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/action/execute_response&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="530" as="sourcePoint" />
+            <mxPoint x="549.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-19" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;设备上报固件信息&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/ota/firmware/report&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/ota/firmware/report_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="599" as="sourcePoint" />
+            <mxPoint x="549.5" y="599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-20" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;云下发获取设备日志指令&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/log/upload&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/log/upload_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="669" as="sourcePoint" />
+            <mxPoint x="549.5" y="669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-21" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;设备上报日志上传进度&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/log/progress&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/log/progress_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="729" as="sourcePoint" />
+            <mxPoint x="549.5" y="729" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-22" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;告警以及故障上报&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/event/trigger&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/event/trigger_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="789" as="sourcePoint" />
+            <mxPoint x="549.5" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-23" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;设备主动属性上报&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/property/report&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/property/report_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="849" as="sourcePoint" />
+            <mxPoint x="549.5" y="849" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-24" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;云端设置设备属性&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/property/set&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/property/set_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="909" as="sourcePoint" />
+            <mxPoint x="549.5" y="909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-25" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;云端主动查询设备属性&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/property/get&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/thing/property/get_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="969" as="sourcePoint" />
+            <mxPoint x="549.5" y="969" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-26" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;下发升级指令&lt;/div&gt;&lt;div&gt;ulink/%s/ota/firmware/upgrade&lt;/div&gt;&lt;div&gt;ulink/%s/ota/firmware/upgrade_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="1029" as="sourcePoint" />
+            <mxPoint x="549.5" y="1029" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V2JjTvbN5bMsyW3CM5I-27" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="&lt;div&gt;上报升级进度&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/ota/progress/report&lt;/div&gt;&lt;div&gt;ulink/${deviceSerial}/ota/progress/report_response&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="1079" as="sourcePoint" />
+            <mxPoint x="549.5" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
